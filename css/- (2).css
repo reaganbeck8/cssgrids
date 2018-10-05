@@ -1,0 +1,17 @@
+/* Base styles */
+
+body {
+    background-color: mistyrose;
+}
+
+/* Begin by duplicating the first grid declaration,
+and wrapping the duplicate in a mobile-first media query (I’m using 500px as the breakpoint, but that’s completely arbitrary): */
+
+
+@media only screen and (min-width: 500px) {
+
+    .grid-1 {
+        /* grid declaration styles */
+    }
+
+}
